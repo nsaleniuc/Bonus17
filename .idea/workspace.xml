@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3946fb0-018a-4d4c-9afe-2d8a3fb50350" name="Default" comment="" />
+    <list default="true" id="e3946fb0-018a-4d4c-9afe-2d8a3fb50350" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameApp.java" afterPath="$PROJECT_DIR$/src/GameApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameCharacter.java" afterPath="$PROJECT_DIR$/src/GameCharacter.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +16,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameCharacter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameCharacter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameCharacter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="39" lean-forward="false" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+            <state relative-caret-position="68">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#557#558#0" expanded="true" />
                 <element signature="e#589#590#0" expanded="true" />
@@ -43,8 +46,8 @@
       <file leaf-file-name="Warrior.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="85">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="e#464#465#0" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
@@ -64,7 +67,7 @@
       <file leaf-file-name="MagicUsingCharacter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MagicUsingCharacter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="543">
               <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
               <folding>
                 <element signature="e#387#388#0" expanded="true" />
@@ -87,7 +90,7 @@
       <file leaf-file-name="Wizard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Wizard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="200">
               <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="e#249#250#0" expanded="true" />
@@ -99,14 +102,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GameApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-              <folding>
-                <element signature="e#401#416#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,6 +121,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -128,12 +132,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/GameApp.java" />
         <option value="$PROJECT_DIR$/src/MagicUsingCharacter.java" />
         <option value="$PROJECT_DIR$/src/Validator.java" />
-        <option value="$PROJECT_DIR$/src/GameCharacter.java" />
         <option value="$PROJECT_DIR$/src/Warrior.java" />
         <option value="$PROJECT_DIR$/src/Wizard.java" />
+        <option value="$PROJECT_DIR$/src/GameCharacter.java" />
+        <option value="$PROJECT_DIR$/src/GameApp.java" />
       </list>
     </option>
   </component>
@@ -149,6 +153,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -629,15 +634,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500311980883</updated>
-      <workItem from="1500311987212" duration="20886000" />
+      <workItem from="1500311987212" duration="24359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20886000" />
+    <option name="totallyTimeSpent" value="24359000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -649,8 +654,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25204584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -717,12 +722,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GameApp.java">
+    <entry file="file://$PROJECT_DIR$/src/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="200">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
-            <element signature="e#401#416#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,28 +743,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Warrior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MagicUsingCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="543">
           <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
           <folding>
             <element signature="e#387#388#0" expanded="true" />
@@ -775,23 +764,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Wizard.java">
+    <entry file="file://$PROJECT_DIR$/src/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="85">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="39" lean-forward="false" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+        <state relative-caret-position="68">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="e#557#558#0" expanded="true" />
             <element signature="e#589#590#0" expanded="true" />
@@ -800,6 +795,14 @@
             <element signature="e#938#939#0" expanded="true" />
             <element signature="e#986#987#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

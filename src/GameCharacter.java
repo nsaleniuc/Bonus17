@@ -120,7 +120,7 @@ public abstract class GameCharacter {
             case 6:
                 return "Shape shifting";
         }
-        return "you've messed up";
+        return "you messed up";
     }
 
     public static int randomMagicalPower() {

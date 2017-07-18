@@ -5,15 +5,19 @@ import java.util.ArrayList;
  */
 public class GameApp {
     public static void main(String[] args) {
-        Warrior warrior = new Warrior("", 0, 0, "");
-        MagicUsingCharacter magicUsingCharacter = new MagicUsingCharacter("", 0, 0, "", 0);
-        Wizard wizard = new Wizard("", 0, 0, "", 0, 0);
-        ArrayList<GameCharacter> gc = new ArrayList<GameCharacter>();
-        gc.add(warrior);
-        gc.add(warrior);
-        gc.add(magicUsingCharacter);
-        gc.add(wizard);
-        gc.add(wizard);
+        Warrior warrior1 = new Warrior("", 0, 0, "");
+        Warrior warrior2 = new Warrior("", 0, 0, "");
+        MagicUsingCharacter magicCharacter = new MagicUsingCharacter("", 0, 0, "", 0);
+        Wizard wizard1 = new Wizard("", 0, 0, "", 0, 0);
+        Wizard wizard2 = new Wizard("", 0, 0, "", 0, 0);
+
+        ArrayList<GameCharacter> gc = new ArrayList<>();
+        gc.add(warrior1);
+        gc.add(warrior2);
+        gc.add(magicCharacter);
+        gc.add(wizard1);
+        gc.add(wizard2);
+
 
         for (GameCharacter list : gc) {
             list.Play();

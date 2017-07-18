@@ -5,7 +5,16 @@ import java.util.Scanner;
  */
 public class MagicUsingCharacter extends GameCharacter {
     static Scanner scan = new Scanner(System.in);
+
     private String magicalEnergy;
+    private int magicalPower;
+
+    public MagicUsingCharacter(String name, int strength, int intelligence,
+                               String magicalEnergy, int magicalPower) {
+        super(name, strength, intelligence);
+        this.magicalEnergy = magicalEnergy;
+        this.magicalPower = magicalPower;
+    }
 
     public int getMagicalPower() {
         magicalPower = randomMagicalPower();
@@ -16,8 +25,6 @@ public class MagicUsingCharacter extends GameCharacter {
         this.magicalPower = magicalPower;
     }
 
-    private int magicalPower;
-
     public String getMagicalEnergy() {
         magicalEnergy = randomMagicalEnergy();
         return magicalEnergy;
@@ -26,13 +33,6 @@ public class MagicUsingCharacter extends GameCharacter {
     public void setMagicalEnergy(String magicalEnergy) {
 
         this.magicalEnergy = magicalEnergy;
-    }
-
-    public MagicUsingCharacter(String name, int strength, int intelligence,
-                               String magicalEnergy, int magicalPower) {
-        super(name, strength, intelligence);
-        this.magicalEnergy = magicalEnergy;
-        this.magicalPower = magicalPower;
     }
 
     public void Play() {
@@ -48,17 +48,14 @@ public class MagicUsingCharacter extends GameCharacter {
     public void printName() {
         System.out.println("Name: " + randomNameSelection());
     }
-
     @Override
     public void printStrength() {
         System.out.println("Strength: " + getStrength());
     }
-
     @Override
     public void printIntelligence() {
         System.out.println("Intelligence: " + getIntelligence());
     }
-
     public void printMagicalEnergy() {
         System.out.println("Magical Energy: " + getMagicalEnergy());
     }

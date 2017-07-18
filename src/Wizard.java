@@ -2,13 +2,21 @@
  * Created by Nathan Saleniuc on 7/17/2017.
  */
 public class Wizard extends MagicUsingCharacter {
+    private int spellNumber;
+
+    public Wizard(String name, int strength, int intelligence, String magicalEnergy,
+                  int magicalPower, int spellNumber) {
+        super(name, strength, intelligence, magicalEnergy, magicalPower);
+        this.spellNumber = spellNumber;
+    }
+
     public int getSpellNumber() {
         spellNumber = randomSpellNumber();
         return spellNumber;
     }
 
-    public void printSpellNumber() {
-        System.out.println("Spell Number: " + getSpellNumber());
+    public void setSpellNumber(int spellNumber) {
+        this.spellNumber = spellNumber;
     }
 
     public void Play() {
@@ -21,16 +29,8 @@ public class Wizard extends MagicUsingCharacter {
         printSpellNumber();
     }
 
-    public void setSpellNumber(int spellNumber) {
-        this.spellNumber = spellNumber;
-    }
-
-    private int spellNumber;
-
-    public Wizard(String name, int strength, int intelligence, String magicalEnergy,
-                    int magicalPower, int spellNumber) {
-        super(name, strength, intelligence, magicalEnergy, magicalPower);
-        this.spellNumber = spellNumber;
+    public void printSpellNumber() {
+        System.out.println("Spell Number: " + getSpellNumber());
     }
 
 }

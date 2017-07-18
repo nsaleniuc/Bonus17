@@ -4,6 +4,14 @@
 public abstract class GameCharacter {
     private String name;
     private int Strength;
+    private int intelligence;
+
+    public abstract void printName();
+
+    public abstract void printStrength();
+
+    public abstract void printIntelligence();
+
     public void Play() {
         printName();
         printStrength();
@@ -38,17 +46,9 @@ public abstract class GameCharacter {
         intelligence = randomIntelligence();
         return intelligence;
     }
-
     public void setIntelligence(int intelligence) {
         this.intelligence = intelligence;
     }
-    public abstract void printName();
-
-    public abstract void printStrength();
-
-    public abstract void printIntelligence();
-
-    private int intelligence;
 
     public static String randomNameSelection() {
         int rand = (int) (Math.random() * 10 + 1);
